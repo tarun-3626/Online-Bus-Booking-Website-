@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+
+    <title>home page</title>
+    <style>
+      body {
+        background-size: cover;
+        font-family: poppins;
+        height: 100vh;
+        overflow-x: hidden;
+      }
+      html {
+        font-size: 10px;
+      }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      li a {
+        display: block;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        text-decoration: none;
+        font-family: poppins;
+        padding: 16px 18px;
+        float: right;
+        font-size: 22px;
+      }
+      a:hover {
+        color: black;
+        text-decoration: underline;
+      }
+      li {
+        float: right;
+      }
+      h1.tag {
+        margin: 0px;
+
+        padding-top: 420px;
+        padding-right: 50px;
+        text-align: right;
+        font-family: poppins;
+        font-size: 45px;
+        color: darkred;
+      }
+
+      img {
+        border-bottom-style: solid;
+        padding: 5px;
+        background-attachment: fixed;
+        position: center;
+      }
+      nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #ffffff9d;
+        backdrop-filter: blur(8px);
+      }
+      .heading {
+        font-size: 4rem;
+        font-weight: 900;
+        margin-left: 4rem;
+      }
+      .image_box {
+        background-image: url("trip-booking-web-banner-landing-page-buying-ticket-bus_277904-15153.jpg");
+        height: 70vh;
+        width: 50vw;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-right: 0;
+        margin-left: auto;
+        margin-top: 10rem;
+        margin-right: 10rem;
+      }
+      .page {
+        height: 100%;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+      }
+      .content_box {
+        width: 40%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* padding: 10rem; */
+      }
+      .content_box > div {
+        width: 60%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        font-size: 2rem;
+      }
+      h2 {
+        margin: 5rem 0;
+        font-size: 5rem;
+      }
+      .ul {
+        display: flex;
+        flex-direction: column;
+        list-style-type: circle;
+        padding: 2rem;
+      }
+      button {
+        text-transform: uppercase;
+        padding: 1rem 2rem;
+        background-color: #f3cf8d;
+        border: none;
+        outline: none;
+        width: max-content;
+        border-radius: 5rem;
+        margin: 1rem;
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="heading">Bus Booking</div>
+      <ul>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="contactus.html">Contactus</a></li>
+        <li><a href="Registration.html">Registration</a></li>
+        <li><a href="loginb.html">Login</a></li>
+      </ul>
+    </nav>
+    <div class="page">
+      <div class="content_box">
+        <div>
+          <h2>Bus Tickets</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi
+            repellendus iure velit explicabo reiciendis unde reprehenderit
+            aperiam rerum a similique?
+          </p>
+          <ul class="ul">
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+          </ul>
+          <button>GET started</button>
+        </div>
+      </div>
+      <div class="image_box"></div>
+    </div>
+  </body>
+</html>
