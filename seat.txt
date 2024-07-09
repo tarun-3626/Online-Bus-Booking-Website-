@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Seat</title>
+</head>
+<body>
+    <h1>Book a Seat on {{ bus.name }}</h1>
+    <p>Available seats: {{ bus.available_seats }}</p>
+    <form method="post">
+        <label for="seats">Number of seats:</label>
+        <input type="number" name="seats" id="seats" required min="1" max="{{ bus.available_seats }}">
+        <input type="submit" value="Book">
+    </form>
+</body>
+</html>
